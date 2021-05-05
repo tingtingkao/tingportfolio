@@ -58,7 +58,7 @@ body{background-color:#052261;
      background-image: url(images/LineBg.svg);
      background-repeat: repeat;
      max-width: 1920px;
-     font-family:'Roboto', Verdana, sans-serif, 'Noto Sans CJK TC', 'Microsoft JhengHei';
+     font-family:'Roboto', Verdana, sans-serif, 'PingFang', 'Microsoft JhengHei';
      display: flex;
      flex-direction: column;
 }
@@ -189,7 +189,8 @@ li{float: left;
 .popup .content {
   height: 80%;
   overflow: auto;
-  padding: 48px;
+  padding: 3rem;
+  /*padding: 48px;*/
 }        
 /*.popup .content, p{
      font-size: 1.6 rem;
