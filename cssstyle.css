@@ -1,6 +1,5 @@
 /*css starts*/  
         @keyframes guidebtn {from{transform:translateY(0px)}to{transform:translateY(-6px)}}
-        @-webkit-keyframes guidebtn {from{transform:translateY(0px)}to{transform:translateY(-6px)}}
         .guidebtn {animation: guidebtn 1.2s infinite alternate;-webkit-animation: guidebtn 1.2s infinite alternate;}
 
         @keyframes skipbtn {from{transform:translateY(0px)}to{transform:translateY(-6px)}}
@@ -39,9 +38,12 @@
         @-webkit-keyframes P04_Btn03 {from{transform:translateY(0px)}to{transform:translateY(-6px)}}
         .P04_Btn03{animation: P04_Btn03 0.6s infinite alternate;-webkit-animation: P04_Btn03 0.6s infinite alternate;}
 
+        @keyframes stickyBtn {from{transform:translateY(0px)}to{transform:translateY(-4px)}}
+        @-webkit-keyframes stickyBtn {from{transform:translateY(0px)}to{transform:translateY(-4px)}}
+        .stickyBtn{animation: stickyBtn 0.6s infinite alternate;-webkit-animation: stickyBtn 0.6s infinite alternate;}
+
         @keyframes blinker {50% {opacity: 0;}}
 
-     
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, 
 cite, code,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
@@ -58,17 +60,17 @@ body{background-color:#052261;
      background-image: url(images/LineBg.svg);
      background-repeat: repeat;
      max-width: 1920px;
-     font-family:'Roboto', Verdana, sans-serif, 'PingFang', 'Microsoft JhengHei';
+     font-family:sans-serif, 'PingFang', 'Microsoft JhengHei' !important;
      display: flex;
      flex-direction: column;
 }
 
 /*icons & fonts*/
-@font-face {
+/*@font-face {
 font-family: 'Material Icons';
 font-style: normal;
 font-weight: 400;
-src: url(font/GochiHand-Regular.eot); /* For IE6-8 */
+src: url(font/GochiHand-Regular.eot); 
 src: local('Material Icons'),
      local('MaterialIcons-Regular'),
      url(font/materialdesignicons-webfont.woff2) format('woff2'),
@@ -80,7 +82,7 @@ src: local('Material Icons'),
      font-family: 'Material Icons';
      font-weight: normal;
      font-style: normal;
-     font-size: 24px;  /* Preferred icon size */
+     font-size: 24px;  
      display: inline-block;
      line-height: 1;
      text-transform: none;
@@ -88,24 +90,22 @@ src: local('Material Icons'),
      word-wrap: normal;
      white-space: nowrap;
      direction: ltr;
-   
-     /* Support for all WebKit browsers. */
+
      -webkit-font-smoothing: antialiased;
-     /* Support for Safari and Chrome. */
+
      text-rendering: optimizeLegibility;
-   
-     /* Support for Firefox. */
+
      -moz-osx-font-smoothing: grayscale;
    
-     /* Support for IE. */
      font-feature-settings: 'liga';
-   }
+   }*/
 
 /*stick btn starts*/
 .stickyBtn {position: -webkit-sticky;
      position: sticky;
-     top:36%;
-     width: 60px;}    
+     top:80%;
+     left: 2%;
+     width: 46px;}    
          
 ul{ list-style: none;
      margin: 0;
