@@ -53,20 +53,20 @@ time, mark, audio, video {
      padding: 0;
      border: 0;
      font-size: 100%;
-     font: inherit;
-     /*vertical-align: baseline;*/}   
+     /*font: inherit;
+     vertical-align: baseline;*/}   
 
 body{background-color:#052261;
      background-image: url(images/LineBg.svg);
      background-repeat: repeat;
      max-width: 1920px;
-     /*font-family:sans-serif, 'PingFang', 'Microsoft JhengHei' !important;*/
+     font-family:sans-serif, 'PingFang', 'Microsoft JhengHei' !important;
      display: flex;
      flex-direction: column;
 }
 
 .stickyBtn {position:fixed;
-     top:80%;
+     top:80vh;
      left: 2%;
      width: 46px;}    
 
