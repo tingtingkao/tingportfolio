@@ -60,93 +60,15 @@ body{background-color:#052261;
      background-image: url(images/LineBg.svg);
      background-repeat: repeat;
      max-width: 1920px;
-     font-family:sans-serif, 'PingFang', 'Microsoft JhengHei' !important;
+     /*font-family:sans-serif, 'PingFang', 'Microsoft JhengHei' !important;*/
      display: flex;
      flex-direction: column;
 }
 
-/*icons & fonts*/
-/*@font-face {
-font-family: 'Material Icons';
-font-style: normal;
-font-weight: 400;
-src: url(font/GochiHand-Regular.eot); 
-src: local('Material Icons'),
-     local('MaterialIcons-Regular'),
-     url(font/materialdesignicons-webfont.woff2) format('woff2'),
-     url(font/materialdesignicons-webfont.woff) format('woff'),
-     url(font/materialdesignicons-webfont.ttf) format('truetype');
-}
-
-.material-icons {
-     font-family: 'Material Icons';
-     font-weight: normal;
-     font-style: normal;
-     font-size: 24px;  
-     display: inline-block;
-     line-height: 1;
-     text-transform: none;
-     letter-spacing: normal;
-     word-wrap: normal;
-     white-space: nowrap;
-     direction: ltr;
-
-     -webkit-font-smoothing: antialiased;
-
-     text-rendering: optimizeLegibility;
-
-     -moz-osx-font-smoothing: grayscale;
-   
-     font-feature-settings: 'liga';
-   }*/
-
-/*stick btn starts*/
-.stickyBtn {position: -webkit-sticky;
-     position: sticky;
+.stickyBtn {position:fixed;
      top:80%;
      left: 2%;
      width: 46px;}    
-         
-ul{ list-style: none;
-     margin: 0;
-     padding: 0;
-     display: block;
-     width: 5%;
-     height: 158px;
-     margin: 0 left;}
-li{float: left;
-     margin: 0;
-     padding: 0;
-     border: 0;}
-        
-.top{background-image: url("images/Float_btn.svg");
-     height: 25px;
-     width: 60px;}
-        
-.behance a{display: block;
-     width: 60px;
-     height: 38px;
-     background-image: url("images/D_Behance_icon.svg");
-     text-indent: -9999px;
-     line-height: 100px;}
-.behance a:hover{background-image: url("images/H_Behance_icon.svg");}
-        
-.linkedin a{display: block;
-     width: 60px;
-     height: 45px;
-     background-image: url("images/D_Linkind_icon.svg");
-     text-indent: -9999px;
-     line-height: 100px;}
-.linkedin a:hover{background-image: url("images/H_Linkind_icon.svg");}
-        
-.about a{display: block;
-     width: 60px;
-     height: 49px;
-     background-image: url("images/D_About_icon.svg");
-     text-indent: -9999px;
-     line-height: 100px;
-     color: #333;}
-.about a:hover{background-image: url("images/H_About_icon.svg");}  
 
 .overlay {position: fixed;
   top: 0;
