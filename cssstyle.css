@@ -112,7 +112,6 @@ body{background-color:#052261;
   height: 80%;
   overflow: auto;
   padding: 3rem;
-  /*padding: 48px;*/
 }        
 /*.popup .content, p{
      font-size: 1.6 rem;
@@ -124,7 +123,8 @@ body{background-color:#052261;
      display: inline-block;
      width: 40px;
      height: 40px;
-     padding: 11px 8px;
+     text-align:center;
+     line-height:40px;
      border-radius: 100%;
      background-color: #F03978;
      transition: background .3s;
@@ -141,7 +141,8 @@ body{background-color:#052261;
      display: inline-block;
      width: 40px;
      height: 40px;
-     padding: 11px 8px;
+     text-align:center;
+     line-height:40px;
      border-radius: 100%;
      background-color: #F03978;
      transition: background .3s;
@@ -184,7 +185,8 @@ body{background-color:#052261;
 .P03_Btn01{display: inline-block;
      width: 40px;
      height: 40px;
-     padding: 11px 8px;
+     text-align:center;
+     line-height:40px;
      border-radius: 100%;
      background-color: #F03978;
      transition: background .3s;
@@ -200,7 +202,8 @@ body{background-color:#052261;
 .P03_Btn02{display: inline-block;
      width: 40px;
      height: 40px;
-     padding: 11px 8px;
+     text-align:center;
+     line-height:40px;
      border-radius: 100%;
      background-color: #F03978;
      transition: background .3s;
@@ -234,7 +237,8 @@ body{background-color:#052261;
 .P02_Btn01{display: inline-block;
      width: 40px;
      height: 40px;
-     padding: 11px 8px;
+     text-align:center;
+     line-height:40px;
      border-radius: 100%;
      background-color: #F03978;
      transition: background .3s;
@@ -250,7 +254,8 @@ body{background-color:#052261;
 .P02_Btn02{display: inline-block;
      width: 40px;
      height: 40px;
-     padding: 11px 8px;
+     text-align:center;
+     line-height:40px;
      border-radius: 100%;
      background-color: #F03978;
      transition: background .3s;
@@ -301,7 +306,6 @@ img{max-width: 100%; height: auto !important;}
      font-weight: bold;}
 .material-icons{
      vertical-align:middle;
-     margin-right: 6px;
      margin-bottom:3px ;
      font-size: 2.2rem;}
 
@@ -325,7 +329,6 @@ img{max-width: 100%; height: auto !important;}
      text-align: center;}
 .material-icons{
      vertical-align:middle;
-     margin-right: 6px;
      margin-bottom:0px ;
      font-size: 2.2rem;}
 
