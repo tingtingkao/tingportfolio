@@ -8,38 +8,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="cssstyle.css">
     <!-- Standard CSS Includes -->
     <link type="text/css" rel="stylesheet" href="jquery.pagewalkthrough.css">
 
     <script src="scripts/jquery-3.6.0.min.js"></script>   
-
-<script type="text/javascript">
-    var winHeight = $(window).innerHeight();
-    $(document).ready(function () {
-        //$(".panel").height(winHeight);
-        $("body").height($(".container").innerHeight());
-
-        $('.close').click(function () {
-            $('.overlay').css('display', 'none');
-        });
-        $('.button').click(function () {
-            $($(this).attr('href')).css('display', '');
-        });
-        
-        window.addEventListener('resize', function (event) {
-        //$(".panel").height($(window).innerHeight());
-        $("body").height($(".container").innerHeight());
-        });
-        $(window).on('scroll',function(){
-            $(".panelCon").css('bottom',$(window).scrollTop()*-1);
-        });
-    });
-    
-
-</script>    
+  
 </head>
 <body>
 
@@ -605,9 +581,29 @@ Persona到誠品線上購物的原因為支持其品牌核心價值(人文、藝
 <script type="text/javascript" src="scripts/jquery.pagewalkthrough.js"></script>
 <script type="text/javascript" src="page.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+
+<script type="text/javascript">
+    var winHeight = $(window).innerHeight();
+    $(document).ready(function () {
+        //$(".panel").height(winHeight);
+        $("body").height($(".container").innerHeight());
+
+        $('.close').click(function () {
+            $('.overlay').css('display', 'none');
+        });
+        $('.button').click(function () {
+            $($(this).attr('href')).css('display', '');
+        });
+        
+        window.addEventListener('resize', function (event) {
+        //$(".panel").height($(window).innerHeight());
+        $("body").height($(".container").innerHeight());
+        });
+        $(window).on('scroll',function(){
+            $(".panelCon").css('bottom',$(window).scrollTop()*-1);
+        });
+    });
+    
+</script>  
 </body>
 </html>
