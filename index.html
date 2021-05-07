@@ -17,14 +17,7 @@
     <script type="text/javascript">
         var winHeight = $(window).innerHeight();
         $(document).ready(function () {
-            let imgCount=6;
-            $('.img-fluid').on('load', function () {
-                imgCount-=1;
-                if (imgCount==0){
-                    $("body").height($(".container").innerHeight());
-                };
-                    console.log($(".container").innerHeight());
-                });
+            imgLoad();
     
             //$(".panel").height(winHeight);
             $("body").height($(".container").innerHeight());
@@ -37,13 +30,22 @@
             });
             
             window.addEventListener('resize', function (event) {
-            //$(".panel").height($(window).innerHeight());
-            $("body").height($(".container").innerHeight());
+                imgLoad();
             });
             $(window).on('scroll',function(){
                 $(".panelCon").css('bottom',$(window).scrollTop()*-1);
             });
         });
+
+        function imgLoad(){
+            let imgCount=6;console.log(imgCount);
+            $('.img-fluid').on('load', function () {
+                imgCount-=1;
+                if (imgCount==0){
+                    $("body").height($(".container").innerHeight());
+                };
+            });
+        };
     </script>  
   
 </head>
