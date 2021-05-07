@@ -17,7 +17,12 @@
     <script type="text/javascript">
         var winHeight = $(window).innerHeight();
         $(document).ready(function () {
+            let imgCount=6;
             $('.img-fluid').on('load', function () {
+                imgCount-=1;
+                if (imgCount==0){
+                    $("body").height($(".container").innerHeight());
+                };
                     console.log($(".container").innerHeight());
                 });
     
