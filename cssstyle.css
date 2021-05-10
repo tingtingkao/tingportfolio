@@ -107,7 +107,8 @@ body{background-color:#052261;
   font-weight: bold;
   text-decoration: none;
   color: #333;
-  z-index: 999;}
+  z-index: 999;
+  cursor: pointer;}
 .popup .content {
   height: 80%;
   overflow: auto;
@@ -344,27 +345,6 @@ img{max-width: 100%; height: auto !important;}
 
 #pane-1 {max-height: 1024px;}
 
-  /*-- Animation Keyframes --*/
-  @media (max-width:768px){
-.guidebtn a{font-size: 0.8rem;
-     border-radius: 4px;
-     margin: 8% 0 6% 0;
-     padding: 5px;}
-.guidebtn a:hover{
-     padding: 5px;}
-
-.skipbtn a{font-size: 0.8rem;
-     border-radius: 4px;
-     margin: 20% 0% 4% -10%;}
-.material-icons{
-     vertical-align:middle;
-     margin-right: 6px;
-     margin-bottom:3px ;
-     font-size: 1.4rem;}
-
-.stickyBtn {display: none;}    
-}
-
 /* START TOOLTIP STYLES */
 [tooltip] {
      position: relative; /* opinion 1 */
@@ -570,3 +550,24 @@ img{max-width: 100%; height: auto !important;}
 .content_center{text-align:center;
      width: 100%;}
 
+  /*-- RWD CSS --*/
+  @media (max-width:768px){
+     .guidebtn a{font-size: 0.8rem;
+          border-radius: 4px;
+          margin: 8% 0 6% 0;
+          padding: 5px;}
+     .guidebtn a:hover{
+          padding: 5px;}
+     
+     .skipbtn a{font-size: 0.8rem;
+          border-radius: 4px;
+          margin: 20% 0% 4% -10%;}
+     .material-icons{
+          vertical-align:middle;
+          margin-bottom:3px ;
+          font-size: 1.4rem;}
+     
+     .stickyBtn {display: none;} 
+
+     }
+       /*-- RWD CSS --*/
