@@ -322,10 +322,10 @@ img{max-width: 100%; height: auto !important;}
 .skipbtn{
      margin: auto 0;
      width: 100%;
-     margin: 3% 0% 3% 30%;}   
+     margin: 3% 0% 3% 34%;}   
 .skipbtn a{color:  white;
      text-decoration: none;
-     font-size: 2rem;
+     font-size: 1.8rem;
      border: white 3px solid;
      border-radius: 6px;
      font-weight: bold;
