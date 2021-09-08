@@ -79,7 +79,7 @@ body{background-color:#052261;
      bottom: 10%;
      left: 2%;
      color: #fff;
-     opacity: 0.5;}    
+     opacity: 0.3;}    
 
 .overlay {position: fixed;
   top: 0;
@@ -143,8 +143,8 @@ body{background-color:#052261;
      vertical-align: middle;
      cursor: pointer;
      position: absolute;
-     left:54%;
-     top: 79%;
+     left: 46%;
+     top: 42%;
      z-index: 10;}  
 .P04_Btn01:hover {background: #FF699D;
      opacity: 0.8;}   
@@ -161,8 +161,8 @@ body{background-color:#052261;
      vertical-align: middle;
      cursor: pointer;
      position: absolute;
-     left:26%;
-     top: 75%;
+     left:22%;
+     top: 30%;
      z-index: 10;}  
 .P04_Btn02:hover {background: #FF699D;
      opacity: 0.8;}    
@@ -178,18 +178,18 @@ body{background-color:#052261;
      top: 43%;
      text-indent: -9999px;} 
 
-.SecretBtn {background-image: url("images/SecretEn_Btn @2x.png");
+.SecretBtn {background-image: url("images/H_Contact_btn.png");
      background-repeat: no-repeat;
      background-size: contain;
-     width: 9%;
+     width: 14%;
      height: 325px;
      cursor: pointer;
      position: absolute;
-     left:72%;
-     top: 88%;
+     left: 68%;
+     top: 68%;
      z-index: 10;
      background-size: contain;}   
-.SecretBtn:hover {background-image: url("images/H_SecretEn_Btn.png");
+.SecretBtn:hover {background-image: url("images/H_ContactEng_btn @2x.png");
      background-repeat: no-repeat;}
 
 /* Panel03 starts */
@@ -205,7 +205,7 @@ body{background-color:#052261;
      cursor: pointer;
      position: absolute;
      left:43%;
-     top: 46%;
+     top: 38%;
      z-index: 10;}    
 .P03_Btn01:hover {background: #FF699D;
      opacity: 0.8;}  
@@ -235,8 +235,8 @@ body{background-color:#052261;
      background-size: contain;
      cursor: pointer;
      position: absolute;
-     left:67%;
-     top: 76%;
+     left:64%;
+     top: 62%;
      z-index: 10;}   
 .mail_02:hover {background-image: url("images/H_Connect_btn.png");
      background-repeat: no-repeat;
@@ -255,8 +255,8 @@ body{background-color:#052261;
      vertical-align: middle;
      cursor: pointer;
      position: absolute;
-     left:17%;
-     top: 9%;
+     left:43%;
+     top: 40%;
      z-index: 10;}     
 .P02_Btn01:hover {background: #FF699D;
      opacity: 0.8;} 
@@ -272,24 +272,24 @@ body{background-color:#052261;
      vertical-align: middle;
      cursor: pointer;
      position: absolute;
-     left:35%;
-     top: 16%;
+     left:57%;
+     top: 36%;
      z-index: 10;}     
 .P02_Btn02:hover {background: #FF699D;
      opacity: 0.8;} 
 
-#mail_01{background-image: url("images/H_Contact_btn.png");
+#mail_01{background-image: url("images/SecretEn_Btn @2x.png");
      background-repeat: no-repeat;
      width: 12%;
      height: 125px;
      position: absolute;
      cursor: pointer;
-     right: 12%;
-     top: 28%;
+     right: 48%;
+     top: 52%;
      z-index: 10;
      background-size: contain;
      /*animation: blinker 2s linear infinite;*/}
-#mail_01:hover {background-image: url("images/H_ContactEng_btn @2x.png");
+#mail_01:hover {background-image: url("images/H_SecretEn_Btn.png");
      background-repeat: no-repeat;
      width: 12%;
      height: 125px;}
@@ -555,7 +555,8 @@ img{max-width: 100%; height: auto !important;}
      font-weight: 800;
      color: #224383;
      margin-top: 9%;
-     margin-bottom: 2%;}
+     margin-bottom: 2%;
+     text-align:center;}
 
 .big_title2{font-size: 1.5rem;
      font-family: serif;
