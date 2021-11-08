@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>number 3</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-859.000000, -2766.000000)">
+            <g id="number-3" transform="translate(859.000000, 2766.000000)">
+                <rect id="Rectangle-Copy-7" fill="#FF97B3" x="0" y="0" width="50" height="50" rx="25"></rect>
+                <text id="3" font-family="Roboto-Medium, Roboto" font-size="36" font-weight="400" fill="#FFFFFF">
+                    <tspan x="15" y="38">3</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
