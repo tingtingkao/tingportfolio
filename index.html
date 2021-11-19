@@ -15,12 +15,12 @@
     <script src="scripts/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> 
     <script type="text/javascript">
-        var winHeight = $(window).innerHeight();
+        //var winHeight = $(window).innerHeight();
         $(document).ready(function () {
-            imgLoad();
+            //imgLoad();
     
             //$(".panel").height(winHeight);
-            $("body").height($(".container").innerHeight());
+            //$("body").height($(".container").innerHeight());
     
             $('.close').click(function () {
                 $('.overlay').css('display', 'none');
@@ -29,12 +29,12 @@
                 $($(this).attr('href')).css('display', '');
             });
             
-            window.addEventListener('resize', function (event) {
-                imgLoad();
-            });
-            $(window).on('scroll',function(){
-                $(".panelCon").css('bottom',$(window).scrollTop()*-1);
-            });
+            //window.addEventListener('resize', function (event) {
+            //    imgLoad();
+            //});
+            //$(window).on('scroll',function(){
+            //    $(".panelCon").css('bottom',$(window).scrollTop()*-1);
+            //});
         });
 
         function imgLoad(){
@@ -236,8 +236,7 @@
                         </div>
                     </div>
                 </div>
-        
-                
+                        
                 <!--<a href="mailto:tingting198711117@gmail.com?subject=Mail from My Site" class="mail_03">email me</a>!-->
                 
                 <a class="button" href="#popup08"><div class="SecretBtn"></div></a>
@@ -536,7 +535,7 @@ Besides, to make the users can easily understand and navigate the interface. Dif
     <div class="column_2">
     <div class="big_title">Solutions: </div>  
         <p class="p_content">
-            Based on users' pain points, the solutions were provided:<br><br> 
+            Based on users' pain points, the solutions were provided:<br><br> 
             <div class="number"><img src="images/number 1.svg"> &nbsp <b>Realted Knowledge</b><br></div>
             Anota offers basic knowledge of extracting and analysing health data; if the Annotators (project producers) have any concerns about the 
             Annotation process, they are able to see tips to understand what they are doing now and what to do next level.<br><br>
@@ -671,7 +670,7 @@ complete scenario during the users facing precise problems, challenging some ass
             <div class="row justify-content-center"> 
                 <div class="col-12">
                     <div class="skipbtn">
-                        <span tooltip="Not Recommended" flow="down"><a href="https://www.behance.net/tingting1117" target="_blank" title="Behance"><span class="material-icons" style="margin-right:8px; line-height: 24px;">play_circle_outline</span>Skip to See the Portfolio</a></span>
+                        <span tooltip="Go Behance" flow="down"><a href="https://www.behance.net/tingting1117" target="_blank" title="Behance"><span class="material-icons" style="margin-right:8px; line-height: 24px;">play_circle_outline</span>Skip to See the Portfolio</a></span>
                     </div><!--skipbtn--> 
                 </div>
             </div><!--SkipBtn-->
@@ -682,23 +681,29 @@ complete scenario during the users facing precise problems, challenging some ass
         </div><!--this is the first taken ends-->
     </div><!--container ends--> 
 
-    <div class="stickyBtn"><span class="material-icons" style="font-size: 3rem;">arrow_circle_up</span></div>
+    <!--<div class="stickyBtn"><span class="material-icons" style="font-size: 3rem;">arrow_circle_up</span></div>--> 
 </main>
 
 <!-- walkthrough -->
 <div id="walkthrough">
 	<div id="step1" style="display:none;">
 		<p class="tooltipTitle">Hi, This is Ting's Portfolio</p>
-        <p style="line-height: 2.6rem; font-size: 2rem;">Scroll down to see portfolio and press this button <img src="images/icon.svg"> to see projects
+        <p style="line-height: 2.6rem; font-size: 2rem;">Scroll up to see portfolio and press this button <img src="images/icon.svg"> to see projects
         </p>
 	</div>
 
     <div id="step2" style="display:none;">
-        <p style="line-height: 2.6rem; font-size: 2rem;">To make sure my javascript file loading porperly, please refresh this website once, thank you for your cooperation.</p>
+        <p style="line-height: 2.6rem; font-size: 2rem;">Or click "Skip to See the Portfolio" button to review my Behance to see projects</p>
 	</div>
 </div>
 
 <script type="text/javascript" src="scripts/jquery.pagewalkthrough.js"></script>
 <script type="text/javascript" src="page.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
